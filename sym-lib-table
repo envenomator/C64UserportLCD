@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name hackup-commodore)(type Legacy)(uri ${KIPRJMOD}/hackup-commodore.lib)(options "")(descr ""))
+  (lib (name 16x2_lcd)(type Legacy)(uri ${KIPRJMOD}/16x2_lcd.lib)(options "")(descr ""))
+  (lib (name userport_expander-rescue)(type Legacy)(uri ${KIPRJMOD}/userport_expander-rescue.lib)(options "")(descr ""))
+)
