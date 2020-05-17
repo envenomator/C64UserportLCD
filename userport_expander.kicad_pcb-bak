@@ -1075,8 +1075,6 @@
   (gr_line (start 93.1 137) (end 89.7 132.2) (layer Edge.Cuts) (width 0.05) (tstamp 5EB3077E))
   (gr_line (start 93.1 151) (end 93.1 137) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 95.25 147.32) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 148.59 147.32) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 128.524 147.316) (end 127.84 148) (width 0.45) (layer B.Cu) (net 1))
   (segment (start 128.524 138.684) (end 128.524 143.256) (width 0.45) (layer B.Cu) (net 1))
   (segment (start 127.84 143.94) (end 127.84 148) (width 0.45) (layer B.Cu) (net 1))
@@ -1089,6 +1087,8 @@
   (segment (start 124.859999 98.189999) (end 124.46 97.79) (width 0.45) (layer F.Cu) (net 1))
   (segment (start 120.396 90.932) (end 120.396 93.726) (width 0.45) (layer B.Cu) (net 1))
   (segment (start 126.174998 136.334998) (end 126.174998 99.504998) (width 0.45) (layer F.Cu) (net 1))
+  (via (at 95.25 147.32) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 148.59 147.32) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 147.870001 145.359999) (end 145.23 148) (width 0.45) (layer F.Cu) (net 2))
   (segment (start 145.23 148) (end 143.68 148) (width 0.45) (layer F.Cu) (net 2))
   (segment (start 147.870001 130.259999) (end 147.870001 145.359999) (width 0.45) (layer F.Cu) (net 2))
@@ -1114,7 +1114,6 @@
   (segment (start 136.6 147.16) (end 135.76 148) (width 0.45) (layer B.Cu) (net 14))
   (segment (start 135.76 142.878) (end 135.76 148) (width 0.45) (layer B.Cu) (net 14))
   (segment (start 137.668 140.97) (end 135.76 142.878) (width 0.45) (layer B.Cu) (net 14))
-  (segment (start 105.156 91.332) (end 105.156 90.932) (width 0.45) (layer F.Cu) (net 36))
   (segment (start 137.668 138.684) (end 137.668 140.97) (width 0.45) (layer B.Cu) (net 14))
   (via (at 132.08 110.489978) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 14))
   (segment (start 137.668 138.684) (end 135.382 136.398) (width 0.45) (layer F.Cu) (net 14))
@@ -1191,6 +1190,7 @@
   (segment (start 116.84 97.79) (end 101.600008 97.79) (width 0.45) (layer B.Cu) (net 32))
   (segment (start 146.05 129.54) (end 146.05 127) (width 0.45) (layer B.Cu) (net 32))
   (segment (start 146.05 127) (end 116.84 97.79) (width 0.45) (layer B.Cu) (net 32))
+  (segment (start 105.156 91.332) (end 105.156 90.932) (width 0.45) (layer F.Cu) (net 36))
 
   (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5EBAFF43) (hatch edge 0.508)
     (connect_pads (clearance 0.508))

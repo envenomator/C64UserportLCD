@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\jeroe\OneDrive\Source\PCB\userport_expander-master\kicad\userport_expander.sch)
-    (date "12-5-2020 21:22:39")
+    (date "17-5-2020 09:35:01")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
